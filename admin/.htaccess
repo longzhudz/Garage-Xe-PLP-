@@ -1,0 +1,40 @@
+RewriteEngine ON
+RewriteRule ^home$ ?ctrl=home [L]
+RewriteRule ^quanlysanpham.html$ ?ctrl=products_load [L]
+RewriteRule ^quanlyhinhanh.html$ ?ctrl=quanlyhinhanh [L]
+RewriteRule ^donhang.html$ ?ctrl=donhang [L]
+RewriteRule ^quanlymember.html$ ?ctrl=member_load [L]
+RewriteRule ^logout.html$ ?ctrl=logoutadmin [L]
+RewriteRule ^contact.html$ ?ctrl=contact [L]
+RewriteRule ^blog_load.html$ ?ctrl=blog_load [L]
+RewriteRule ^danhmucbaiviet.html$ ?ctrl=cate_blog_load [L]
+RewriteRule ^danhmucsanpham.html$ ?ctrl=cate_product [L]
+RewriteRule ^donhang.html$ ?ctrl=donhang [L]
+RewriteRule ^service.html$ ?ctrl=service [L]
+RewriteRule ^booking.html$ ?ctrl=book [L]
+RewriteRule ^lienhe.html$ ?ctrl=lienhe [L]
+RewriteRule ^xuathoadon.html$ ?ctrl=xuathoadon [L]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,38 @@
+RewriteEngine ON
+RewriteRule ^login.html$ ?ctrl=login [L]
+RewriteRule ^blog-details.html$ ?ctrl=blog-details [L]
+RewriteRule ^blog.html$ ?ctrl=blog [L]
+RewriteRule ^contact.html$ ?ctrl=contact [L]
+RewriteRule ^gioi-thieu.html$ ?ctrl=gioi-thieu [L]
+RewriteRule ^register.html$ ?ctrl=register [L]
+RewriteRule ^service.html$ ?ctrl=service [L]
+RewriteRule ^shop.html$ ?ctrl=shop [L]
+
+RewriteRule ^logout.html$ ?ctrl=logout [L]
+RewriteRule ^profile.html$ ?ctrl=profile [L]
+RewriteRule ^profile-edit.html$ ?ctrl=profile-edit [L]
+RewriteRule ^forgetpass.html$ ?ctrl=forgetpass [L]
+RewriteRule ^error.html$ ?ctrl=error [L]
+RewriteRule ^blog_details/(.*).html$ ?ctrl=blog_details&slugblog=$1   [L]
+RewriteRule ^cart.html$ ?ctrl=cart [L]
+RewriteRule ^shop_details.html$ ?ctrl=shop_details [L]
+RewriteRule ^products/(.*).html$ ?ctrl=shop&categories=$1 [L]
+
+RewriteRule ^home.html$ index.php [L]
+
+
+
+RewriteRule ^changepass/(.*)$ ?ctrl=changepass&token=$1  [L]
+RewriteRule ^passchangclient.html$ ?ctrl=passchangclient [L]
+
+
+
+
+RewriteRule ^shop_details/(.*).html$ ?ctrl=shop_details&slugproducts=$1  [L]
+
+
+
+
+
+
+
